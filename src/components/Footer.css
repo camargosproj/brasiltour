@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.social-cards{
+    display: flex;   
+    justify-content: space-between; 
+    width: 110px;
+    color: white;
+    font-size: 2rem;
+}
+.social-cards i:hover{
+    cursor: pointer;
+    font-size: 3rem;
+}
+.created{
+    color: white;
+    font-size: 1rem;
+}
