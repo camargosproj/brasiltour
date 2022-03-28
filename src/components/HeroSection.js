@@ -16,7 +16,7 @@ const HeroSection = () => {
             <p>What are you waiting for?</p>
             <div className="hero-btns">
                 <Button className="btns" goTo="/cards" buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-                <Button className="btns" goTo="/" onClick={handleVideo} buttonStyle='btn--primary' buttonSize='btn--large'>
+                <Button className="btns" goTo="/adventure-website" onClick={handleVideo} buttonStyle='btn--primary' buttonSize='btn--large'>
                     WATCH TRAILER  <i className="fa fa-play"/>
                 </Button>
             </div>
