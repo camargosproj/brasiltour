@@ -32,7 +32,7 @@ const NavBar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/adventure-website" className="navbar-logo" onClick={closeMobileMenu}>
-                    ADVENTURE <i className="fa fa-car"></i>
+                    BRASILTOUR <i className="fa fa-car"></i>
                 </Link>
                 {/* Set menu bar for responsiveness  */}
                 <div className="menu-icon" onClick={handleClick}>
@@ -46,12 +46,12 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item">
                         <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                            Sevices
+                            Lugares
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            Products
+                            Contato
                         </Link>
                     </li>
                     <li className="nav-item">

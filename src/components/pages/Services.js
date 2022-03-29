@@ -3,7 +3,7 @@ import '../../App.css';
 
 const Services = () => {
     return ( 
-        <h1 className="services">SERVICES</h1>
+        <h1 className="services">Lugares</h1>
      );
 }
  

@@ -12,12 +12,12 @@ const HeroSection = () => {
     }
     return ( 
         <div className="hero-container">
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What are you waiting for?</p>
+            <h1>BRASIL TOUR</h1>
+            <p>Que tal conhecer o Brasil?</p>
             <div className="hero-btns">
-                <Button className="btns" goTo="/cards" buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
+                <Button className="btns" goTo="/cards" buttonStyle='btn--outline' buttonSize='btn--large'>ENCONTRAR DESTINO</Button>
                 <Button className="btns" goTo="/adventure-website" onClick={handleVideo} buttonStyle='btn--primary' buttonSize='btn--large'>
-                    WATCH TRAILER  <i className="fa fa-play"/>
+                    ASSISTIR VIDEO  <i className="fa fa-play"/>
                 </Button>
             </div>
             <VideoPlay onClose={() => setShow(false)} show={show} />
