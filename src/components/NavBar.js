@@ -31,7 +31,7 @@ const NavBar = () => {
        <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/adventure-website" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link to="/brasiltour" className="navbar-logo" onClick={closeMobileMenu}>
                     BRASILTOUR <i className="fa fa-car"></i>
                 </Link>
                 {/* Set menu bar for responsiveness  */}
@@ -40,7 +40,7 @@ const NavBar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/adventure-website" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/brasiltour" className="nav-links" onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>

@@ -9,7 +9,7 @@ const VideoPlayer = ({onClose, show}) => {
     return ( 
         <div className="videoPlay-container">   
             <i className="fa fa-times" onClick={onClose}></i>         
-            <video  src="adventure-website/videos/turismo.mp4" controls></video>
+            <video  src="brasiltour/videos/turismo.mp4" controls></video>
         </div>
     )
     

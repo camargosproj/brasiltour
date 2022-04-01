@@ -10,18 +10,14 @@ const HeroSection = () => {
     const handleVideo = () => {
         setShow(!show);
     }
-
-    const handleClick = () => {
-        window.location.replace("/#cards");
-    }
     if(!show){
     return ( 
         <div className="hero-container">
             <h1>BRASIL TOUR</h1>
             <p>Que tal conhecer o Brasil?</p>
             <div className="hero-btns">
-                <Button className="btns" goTo="/#cards" buttonStyle='btn--outline' onClick={handleClick} buttonSize='btn--large'>ENCONTRAR DESTINO</Button>
-                <Button className="btns" goTo="/adventure-website" onClick={handleVideo} buttonStyle='btn--primary' buttonSize='btn--large'>
+                <Button className="btns" goTo="/cards" buttonStyle='btn--outline' buttonSize='btn--large'>ENCONTRAR DESTINO</Button>
+                <Button className="btns" goTo="/brasiltour" onClick={handleVideo} buttonStyle='btn--primary' buttonSize='btn--large'>
                     ASSISTIR VIDEO  <i className="fa fa-play"/>
                 </Button>
             </div>            

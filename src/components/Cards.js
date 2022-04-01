@@ -11,13 +11,13 @@ const Cards = () => {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                            src="/adventure-website/images/bahia-1.jpg" 
+                            src="/brasiltour/images/bahia-1.jpg" 
                             text="Melhores destinos na Bahia!"
                             label="Chapada Diamantina - Bahia"
                             path="/products"
                         />
                         <CardItem 
-                            src="/adventure-website/images/maranhao-2.jpg" 
+                            src="/brasiltour/images/maranhao-2.jpg" 
                             text="Melhores destinos no Maranhão!"
                             label="Lençois Maranhenses - Maranhão"
                             path="/services"
@@ -26,19 +26,19 @@ const Cards = () => {
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                                src="/adventure-website/images/rio.jpg" 
+                                src="/brasiltour/images/rio.jpg" 
                                 text="Melhores destinos no Rio!"
                                 label="Cristo Redentor - Rio de Janeiro"
                                 path="/services"
                             />
                             <CardItem 
-                                src="/adventure-website/images/cataratas.jpg" 
+                                src="/brasiltour/images/cataratas.jpg" 
                                 text="Melhores destinos no Paraná!"
                                 label="Cataratas do Iguaçu - Paraná"
                                 path="/services"
                             />
                             <CardItem 
-                                src="/adventure-website/images/genipabu.jpg" 
+                                src="/brasiltour/images/genipabu.jpg" 
                                 text="Melhores destinos no Rio Grande do Norte!"
                                 label="Dunas de Genipabu - Rio Grande do Norte"
                                 path="/services"
