@@ -3,9 +3,9 @@ import CardItem from "./CardItem";
 import "./Cards.css";
 
 
-const Cards = () => {
+const Cards = ({scrollToNextSection}) => {
     return ( 
-        <div className="cards" id="cards">
+        <div className="cards" ref={scrollToNextSection}>
             <h1>Venha conhecer lindas paisagens no Brasil!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
