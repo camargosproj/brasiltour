@@ -2,12 +2,12 @@ import React from "react";
 import '../App.css';
 import Button from '../components/Button';
 
-const Contact = () => {
+const Contact = ({scrollToSection}) => {
     return (
-        <div className="contact">
+        <div className="contact" ref={scrollToSection}>
             <div className="contact-container">
-                <h1 className="form-title">Entre em Contato</h1>
                 <form className="form-container">
+                    <h1 className="form-title">Entre em Contato</h1>
                     <div className="input-container">
                         <label htmlFor="name">Nome</label>
                         <input type="text" id="name" placeholder="Digite seu nome" />

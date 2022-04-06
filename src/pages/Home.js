@@ -25,9 +25,9 @@ const Home = () => {
         window.scrollTo({top: 0, behavior: "smooth"});
     }
     // Scroll to next section
-    const scrollToNext = () => {
+    const scrollToNext = (scroll) => {
         window.scrollTo({
-            top: scrollToNextSection.current.offsetTop,
+            top: scroll.current.offsetTop,
             behavior: "smooth"
         })
     }
@@ -35,8 +35,8 @@ const Home = () => {
     return ( 
         <>
             {showScrollToTop && <ScrollToTop scrollToTopFunction={scrollTop} />}
-            <HeroSection scrollToNext={scrollToNext} />
-            <Cards scrollToNextSection={scrollToNextSection} />
+            <HeroSection scrollToNext={() => scrollToNext(scrollToNextSection)} />
+            <Cards scrollToSection={scrollToNextSection} />
             <Contact />
             <About />
         </>

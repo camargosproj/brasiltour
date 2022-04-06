@@ -13,7 +13,6 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
 }
 
 .contact{
@@ -32,18 +31,24 @@
   padding: 5%;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
   width: 50%;
-  height: 80%;
-  color: #242424;
+  min-height: 500px;
+  color: #fff;
   border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
 
+}
+.form-title{
+  font-size: 1.5em;
 }
 
 .form-container{
   display: flex;
+  flex-shrink: 1;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  height: 100%;
 }
 .input-container{
   margin: 1rem;
@@ -59,7 +64,7 @@
   width: 100%;
   height: 2rem;
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #fff;
   background: transparent;
   outline: none;
   height: 40px;
@@ -67,7 +72,7 @@
 }
 
 .input-container textarea::placeholder, input::placeholder{
-  color: rgb(126, 123, 123);
+  color: rgb(204, 201, 201);
 }
 
 .input-container textarea{
@@ -76,20 +81,17 @@
   width: 100%;
   height: 10rem;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   padding: 5px;
 }
 
 .input-container textarea:focus{
-  outline: 2px solid #fff;
+  outline: 2px solid #000;
 }
 
 .about {
-  background-image: url('../public/images/bahia-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 100px;
 }
 
