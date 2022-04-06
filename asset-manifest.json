@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/brasiltour/static/css/main.ab564a66.css",
-    "main.js": "/brasiltour/static/js/main.ac922ec1.js",
+    "main.js": "/brasiltour/static/js/main.8ea6c92a.js",
     "static/media/bahia-1.jpg": "/brasiltour/static/media/bahia-1.74c5c32826a2d5f3d4d1.jpg",
     "static/media/bg.jpg": "/brasiltour/static/media/bg.9379e6199e2a319ab1cb.jpg",
     "index.html": "/brasiltour/index.html",
     "main.ab564a66.css.map": "/brasiltour/static/css/main.ab564a66.css.map",
-    "main.ac922ec1.js.map": "/brasiltour/static/js/main.ac922ec1.js.map"
+    "main.8ea6c92a.js.map": "/brasiltour/static/js/main.8ea6c92a.js.map"
   },
   "entrypoints": [
     "static/css/main.ab564a66.css",
-    "static/js/main.ac922ec1.js"
+    "static/js/main.8ea6c92a.js"
   ]
 }
