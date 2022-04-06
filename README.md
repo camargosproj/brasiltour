@@ -2,4 +2,4 @@
 
 O site está online nesse endereço: [https://camargosproj.github.io/brasiltour/](https://camargosproj.github.io/brasiltour/)
 
-# A pagina ainda está em desenvolvimento
+# Projeto ainda está em desenvolvimento

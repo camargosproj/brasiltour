@@ -1,10 +1,10 @@
 import React ,{useState,useEffect, useRef} from "react";
-import "../../App.css";
-import Cards from "../Cards";
-import HeroSection from "../HeroSection";
-import ScrollToTop from "../ScrollToTop";
-import Products from "./Products";
-import Services from "./Services";
+import "../App.css";
+import Cards from "../components/Cards";
+import HeroSection from "../components/HeroSection";
+import ScrollToTop from "../components/ScrollToTop";
+import Contact from "./Contact";
+import About from "./About";
 
 
 const Home = () => {  
@@ -37,8 +37,8 @@ const Home = () => {
             {showScrollToTop && <ScrollToTop scrollToTopFunction={scrollTop} />}
             <HeroSection scrollToNext={scrollToNext} />
             <Cards scrollToNextSection={scrollToNextSection} />
-            <Products />
-            <Services />
+            <Contact />
+            <About />
         </>
      );
 }

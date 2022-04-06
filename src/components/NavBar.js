@@ -45,13 +45,13 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                            Lugares
+                        <Link to="/Contact" className="nav-links" onClick={closeMobileMenu}>
+                            Contato
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                            Contato
+                        <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+                            Sobre
                         </Link>
                     </li>
                     <li className="nav-item">
