@@ -60,4 +60,8 @@
     .btn {
       width: 100%;
     }
+    .cards-container{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
   }
